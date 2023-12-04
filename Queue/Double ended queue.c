@@ -7,6 +7,7 @@ void enquefront(int x)
 {
     if((f==0 && r==N-1) || (f==r+1))
         printf("the queue is full");
+        //thor
     else if(f==-1 && r==-1)
         {
         printf("Queue is empty");
